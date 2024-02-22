@@ -5,6 +5,8 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
+    "build": "node app.js",
+    "start": "node app.js",
     "test": "node douyin.test.js"
   },
   "author": "Li Shuiguang",

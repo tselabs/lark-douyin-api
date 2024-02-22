@@ -32,7 +32,7 @@ router.get('/douyin', async (ctx) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1145;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
